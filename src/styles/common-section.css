@@ -1,0 +1,11 @@
+.common__section {
+  background: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)),
+    url("../assets/images/table.jpg") no-repeat center center;
+  background-size: cover;
+
+  @apply flex items-center justify-center h-[300px] py-[100px];
+}
+
+.common__section {
+  @apply text-white text-2xl font-[600];
+}

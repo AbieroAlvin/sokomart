@@ -1,0 +1,11 @@
+.form__group label {
+  @apply font-semibold mb-4 text-white;
+}
+
+form {
+  @apply bg-[var(--primary-color)] p-[40px] rounded-md;
+}
+
+form input[type="file"] {
+  @apply text-white  cursor-pointer;
+}

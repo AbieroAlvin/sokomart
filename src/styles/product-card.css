@@ -1,0 +1,19 @@
+.product__card {
+  @apply cursor-pointer;
+}
+
+.product__info h3 a {
+  @apply text-[1.2rem] text-[var(--primary-color)] mt-[15px] font-[600];
+}
+
+.product__info a:hover {
+  @apply text-inherit;
+}
+
+.product__info span {
+  @apply text-[0.9rem];
+}
+
+.product__card-bottom .price {
+  @apply text-[var(--primary-color)] text-[1.3rem] font-[500];
+}

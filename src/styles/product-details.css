@@ -1,0 +1,73 @@
+.product__details {
+  @apply mt-[30px];
+}
+
+.product__details h2 {
+  @apply md:text-[1.8rem] text-[1.4rem] mb-[10px] font-[500];
+}
+
+.product__rating {
+  @apply flex items-center gap-6 mb-4;
+}
+
+.product__rating span {
+  @apply text-yellow-500;
+}
+
+.product__rating p span {
+  @apply font-[500];
+}
+
+.product__price {
+  @apply text-[1.3rem] font-[500];
+}
+
+.tab__wrapper {
+  @apply text-[var(--primary-color)] font-[500];
+}
+
+.active__tab {
+  @apply font-[600];
+}
+
+.tab__content p {
+  @apply leading-[30px];
+}
+
+.review__wrapper ul li span {
+  @apply text-yellow-500 font-[500];
+}
+
+.review__wrapper ul li p {
+  @apply mt-[10px];
+}
+
+.review__form {
+  @apply w-[70%] m-auto mt-[40px];
+}
+
+.review__form h4 {
+  @apply text-[1.2rem] font-[600] mb-[30px];
+}
+
+.form__group input,
+.form__group textarea {
+  @apply w-full border-[1px] border-[var(--primary-color)] rounded-md py-[8px] px-[20px];
+}
+
+.form__group input:focus,
+.form__group textarea:focus {
+  @apply outline-none;
+}
+
+.form__group {
+  @apply mb-[30px];
+}
+
+.form__group span {
+  @apply text-yellow-500 flex items-center gap-4 cursor-pointer;
+}
+
+.related__title {
+  @apply text-[1.25rem] font-[600] text-left;
+}

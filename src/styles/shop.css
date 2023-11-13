@@ -1,0 +1,23 @@
+.filter__widget select {
+  @apply py-[10px] px-[20px] rounded-md border-[1px] border-[var(--primary-color)] cursor-pointer text-white bg-[var(--primary-color)];
+}
+
+.filter__widget select:focus {
+  @apply outline-none;
+}
+
+.filter__widget select option {
+  @apply text-[0.9rem];
+}
+
+.search__box {
+  @apply flex items-center w-full justify-between border-[1px] border-[var(--primary-color)] rounded-md pr-[12px] pl-[4px] cursor-pointer;
+}
+
+.search__box input {
+  @apply w-full border-none outline-none px-[10px] py-[8px];
+}
+
+.search__box span {
+  @apply text-[var(--primary-color)];
+}

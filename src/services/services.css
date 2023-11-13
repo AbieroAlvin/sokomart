@@ -1,0 +1,11 @@
+.service__item {
+  @apply p-[20px]  flex items-center gap-[0.7rem] rounded-[8px] cursor-pointer;
+}
+
+.service__item h3 {
+  @apply text-[var(--primary-color)] text-[1.1rem] font-[600];
+}
+
+.service__item p {
+  @apply text-[0.9rem] mt-[5px] text-[#222];
+}

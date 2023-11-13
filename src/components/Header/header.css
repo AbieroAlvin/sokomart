@@ -1,0 +1,25 @@
+.nav__icons {
+  @apply md:flex hidden items-center gap-8 px-6;
+}
+
+.nav__icons span {
+  @apply cursor-pointer;
+}
+
+.cart__icon,
+.fav__icon {
+  @apply relative;
+}
+
+.badge {
+  content: "";
+  @apply absolute top-[-20%] right-[-20%] bg-black text-white rounded-full text-[0.8rem] font-[600] z-10 p-2 w-[15px] h-[15px] flex items-center justify-center;
+}
+
+/* .menu {
+  @apply md:flex hidden gap-4;
+} */
+
+.sticky__header {
+  @apply w-full h-[80px] leading-[70px] sticky top-0 left-0 z-[999] shadow-lg bg-blue-300;
+}

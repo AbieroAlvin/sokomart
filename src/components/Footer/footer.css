@@ -1,0 +1,31 @@
+.col {
+  @apply flex flex-col;
+}
+
+.row {
+  @apply grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-8;
+}
+
+.footer {
+  @apply lg:px-[80px] md:px-[60px] px-[40px] py-[40px] bg-[var(--primary-color)];
+}
+
+.footer__text {
+  @apply leading-[30px] text-white;
+}
+
+.footer__links ul li {
+  @apply bg-transparent;
+}
+
+.footer__links ul li a {
+  @apply text-gray-400;
+}
+
+.links__title {
+  @apply mb-[20px] text-white text-[1.1rem];
+}
+
+.footer__copy {
+  @apply text-center w-full  text-sm text-gray-300 mt-[30px];
+}
